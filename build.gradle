@@ -33,6 +33,9 @@ dependencies {
 	// https://mvnrepository.com/artifact/org.apache.ftpserver/ftpserver-core
 	implementation 'org.apache.ftpserver:ftpserver-core:1.2.0'
 	
+	//test
+	implementation 'commons-net:commons-net:3.8.0'
+	
 }
 
 tasks.named('test') {
